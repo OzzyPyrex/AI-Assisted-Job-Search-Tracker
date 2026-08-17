@@ -1,0 +1,8 @@
+discovered_date,employer,job_title,location,work_mode,application_url,posting_date,closing_date,match_score,priority,status,salary_eur,source_url,notes
+2026-08-18,Northstar Data Labs,Junior Data Analyst,"Galway, Ireland",Hybrid,https://example.com/jobs/northstar-data-analyst,2026-08-18,2026-08-27,92,Apply immediately,Open,42000,https://example.com/jobs/northstar-data-analyst,Fictional role used only to demonstrate the tracker.
+2026-08-17,Greenline Analytics,BI Analyst,"Dublin, Ireland",Remote,https://example.com/jobs/greenline-bi-analyst,2026-08-16,2026-08-30,88,Strong option,Saved,50000,https://example.com/jobs/greenline-bi-analyst,Fictional role with strong SQL and dashboard alignment.
+2026-08-16,Harbour Insight,Reporting Analyst,"Cork, Ireland",Hybrid,https://example.com/jobs/harbour-reporting,2026-08-14,2026-08-23,81,Strong option,Applied,46000,https://example.com/jobs/harbour-reporting,Fictional role already marked as applied.
+2026-08-14,Meridian Works,Business Analyst,"Limerick, Ireland",On-site,https://example.com/jobs/meridian-business-analyst,2026-08-12,2026-09-04,76,Possible option,Open,48000,https://example.com/jobs/meridian-business-analyst,Fictional role requiring further domain-fit review.
+2026-08-10,Atlas BI Studio,Power BI Developer,"Kildare, Ireland",Flexible,https://example.com/jobs/atlas-power-bi,2026-08-08,2026-08-21,85,Apply immediately,Interview,56000,https://example.com/jobs/atlas-power-bi,Fictional role demonstrating an interview-stage application.
+2026-08-05,Fernway Systems,Data Quality Analyst,"Waterford, Ireland",Remote,https://example.com/jobs/fernway-data-quality,2026-08-03,2026-09-10,68,Low priority,Needs verification,44000,https://example.com/jobs/fernway-data-quality,Fictional role awaiting source verification.
+

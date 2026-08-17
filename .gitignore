@@ -1,0 +1,21 @@
+node_modules/
+output/
+.tracker-build/
+
+# Personal working data
+Job_Search_Tracker.csv
+Job_Search_Tracker.xlsx
+*.inspect.ndjson
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Caches and temporary files
+__pycache__/
+*.py[cod]
+~$*.xlsx
+.DS_Store
+Thumbs.db
+
