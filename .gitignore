@@ -7,6 +7,12 @@ Job_Search_Tracker.csv
 Job_Search_Tracker.xlsx
 *.inspect.ndjson
 
+# Only the explicitly reviewed fictional examples belong in version control.
+*.csv
+!examples/sample_jobs.csv
+*.xlsx
+!examples/Job_Search_Tracker_Sample.xlsx
+
 # Local configuration and secrets
 .env
 .env.*
@@ -18,4 +24,3 @@ __pycache__/
 ~$*.xlsx
 .DS_Store
 Thumbs.db
-

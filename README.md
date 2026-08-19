@@ -20,6 +20,7 @@ A spreadsheet-based workflow for organising and prioritising data and analytics 
 | examples/sample_jobs.csv | Fictional source rows used by the sample. |
 | examples/Job_Search_Tracker_Sample.xlsx | Ready-to-open example workbook. |
 | src/build-job-tracker.mjs | Rebuilds the workbook and preview assets. |
+| src/validate-sample.mjs | Checks the public CSV for valid fields and portfolio-safety markers. |
 | docs/workflow-template.md | Reusable vacancy research and validation workflow. |
 | assets/dashboard.png | Portfolio preview of the workbook dashboard. |
 
@@ -33,6 +34,16 @@ The builder uses the spreadsheet runtime bundled with Codex desktop. From a comp
 
 The finished workbook and CSV remain usable without the builder runtime.
 
+## Validate the public sample
+
+The repository includes a dependency-free check for the fictional CSV used in the public workbook. It validates the required fields, controlled vocabularies, dates, URLs, duplicate keys, and fictional-data marker before a change is accepted.
+
+```bash
+npm run check
+```
+
+The same check runs in GitHub Actions. It is deliberately scoped to the public sample; keep real search history in a separate private, local workbook.
+
 ## Privacy
 
 Real application history, CV paths, email addresses, immigration details, and recruiter/contact research are intentionally excluded. Keep personal data in a private local file and out of version control.
@@ -44,4 +55,3 @@ This repository demonstrates the tracker design and workbook-generation workflow
 ## Status
 
 Portfolio project developed with Codex. The sample data and organisations are fictional.
-

@@ -1,0 +1,10 @@
+{
+  "name": "ai-assisted-job-search-tracker",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check": "node src/validate-sample.mjs",
+    "build": "node src/build-job-tracker.mjs"
+  }
+}
